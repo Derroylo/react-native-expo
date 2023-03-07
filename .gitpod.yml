@@ -7,3 +7,12 @@ image:
 # Configure git
 gitConfig:
   core.autocrlf: "false"
+
+# Define tasks that should be executed
+# Documentation: https://www.gitpod.io/docs/configure/workspaces/tasks
+tasks:
+- name: Install React native demo
+    init: |
+      chmod +x ./.devEnv/gitpod/scripts/install_react_native_demo.sh &&
+      ./.devEnv/gitpod/scripts/install_react_native_demo.sh
+    command: yarn expo start
