@@ -15,4 +15,4 @@ tasks:
     init: |
       chmod +x ./.devEnv/gitpod/scripts/install_react_native_demo.sh &&
       ./.devEnv/gitpod/scripts/install_react_native_demo.sh
-    command: yarn expo start
+    command: yarn start
