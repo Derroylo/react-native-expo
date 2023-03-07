@@ -1,0 +1,9 @@
+---
+# Basic setup for a React native workspace with expo support
+# Documentation can be found here: https://www.gitpod.io/docs/references/gitpod-yml
+image:
+  file: .gitpod.dockerfile
+
+# Configure git
+gitConfig:
+  core.autocrlf: "false"
